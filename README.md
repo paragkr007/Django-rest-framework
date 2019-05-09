@@ -1,7 +1,6 @@
 # Django-rest-framework
 Learn how to create a RESTful Api using Django.
 
-# Django-rest-framework
 #### The Following commands to install Django framework in python (if you have python installed).
    `pip install Django`<br>
    `pip install djangorestframework`
