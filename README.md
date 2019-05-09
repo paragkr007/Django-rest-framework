@@ -114,7 +114,9 @@ The following will be now the folder structure
 		
 #### Add the app urls to main project by adding the following line in the urls.py at project level.
 
-	path('project/',include('app_name.urls')),
+	path('project/',include('app_name.urls')), #add this line in urlpatterns.
+		
+	
 
 Note: import include also. (from django.urls import path,include)<br>
 urls.py will look like this now.
