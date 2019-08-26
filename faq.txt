@@ -1,4 +1,7 @@
-1.Python-based free and open-source web framework, which follows the model-template-view (MTV) architectural pattern.
+Django Rest Framework (DRF) :
+1.Django is web framework in python to develop a web application in python.
+Python-based free and open-source web framework, which follows the model-template-view (MTV) architectural pattern.
+MTV is useful because it completely separates server code from the client’s machine
 
 2.Django follows MVC (model-view-controller) architecture pattern, written in Python programming language designed for creating easy and rapid development. 
 Django contains four layers:
@@ -10,3 +13,8 @@ Django contains four layers:
 3.In Django, middleware is a lightweight plugin that processes during request and response execution.
 Middleware is used to perform a function in the application.
 The functions can be a security, session, csrf protection, authentication etc.
+
+4.Object-Relational Mapper (ORM), which enables you to interact with your database, like you would with SQL. In fact, Django's ORM is just a pythonical way to create SQL to query and manipulate your database and get results in a pythonic fashion.
+
+5.A session is a mechanism to store information on the server side during the interaction with the web application.
+In Django, by default session stores in the database and also allows file-based and cache based sessions. It is implemented via a piece of middleware and can be enabled by using the following code.
