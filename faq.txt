@@ -1,0 +1,12 @@
+1.Python-based free and open-source web framework, which follows the model-template-view (MTV) architectural pattern.
+
+2.Django follows MVC (model-view-controller) architecture pattern, written in Python programming language designed for creating easy and rapid development. 
+Django contains four layers:
+- Models Layer that describes the database schema and data structure.
+- Views Layer is UI responsible for controlling what a user sees, retrieving data from appropriate models and executing any calculation made to the data. It finally sends executed data to the template.
+- Templates Layer is responsible for determining how a user sees. Also, it is responsible for describing how the data is received from the views. Should the data received be changed or formatted for display on the web page?
+- Controller Layer controls the requests and responses, set-up database connections and loading add-ons. It also specifies the Django framework and URL parsing.
+
+3.In Django, middleware is a lightweight plugin that processes during request and response execution.
+Middleware is used to perform a function in the application.
+The functions can be a security, session, csrf protection, authentication etc.
